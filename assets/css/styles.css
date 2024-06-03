@@ -123,6 +123,8 @@ footer {
 main{
     margin-top: 79px;
 }
+
+/*screen sizes of laptops and desktops >992px*/
 }
 @media screen and (min-width:992px) {
     #menu a:hover{
