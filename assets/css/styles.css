@@ -141,10 +141,19 @@ main {
     margin: 5px 0;
 }
 #circle-cover-bg{
-    background: url="../images/reasons-image.webp" no-repeat top center/cover;
+    background: url("../images/reasons-image.webp") no-repeat top center/cover;
     width: 90vw;
     height: 90vw;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+
+}
+#benefits-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 /* Footer */
 #social-networks {
@@ -199,7 +208,12 @@ main {
         width: 300px;
         right: 50px;
     }
+#circle-cover-bg{
+    max-width: 300px;
+    max-height: 300px;
 }
+}
+
 
 /*screen sizes of laptops and desktops >992px*/
 
