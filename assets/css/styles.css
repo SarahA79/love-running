@@ -270,4 +270,21 @@ main {
     #benefits-physical > div {
         align-self: flex-end;
     }
+
+    /*animation effect testing*/
+    /* Define the keyframes for the animation */
+@keyframes colorChange {
+    0% { background-color: blue; }
+    50% { background-color: green; }
+    100% { background-color: red; }
+  }
+  
+  /* Apply the animation to a specific class */
+  .myDiv {
+    width: 100px;
+    height: 100px;
+    animation-name: colorChange; /* Refers to the name of the keyframes */
+    animation-duration: 4s; /* Duration of the animation */
+    animation-iteration-count: infinite; /* Repeat the animation indefinitely */
+  }
 }
